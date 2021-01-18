@@ -1,0 +1,400 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>resume Template - Materialize</title>
+
+  <!-- CSS  -->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection" />
+  <link href="frontawesome_css/all.css" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+TC:wght@300&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+  <!-- <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection" /> -->
+  <link href="dist/main.css" rel="stylesheet">
+</head>
+
+<body>
+  <nav class="brown shadow navbar">
+    <div class="container" id="home">
+      <a href="#home" class="left home-button">
+        <i class="material-icons">home</i>
+      </a>
+      <div class="brand-logo center">
+        <img src="img/logo2.png" alt="logo" class="responsive-img">
+      </div>
+      <a href="#" class="right sidenav-trigger show-on-medium-and-up" data-target="side-nav">
+        <i class="material-icons">format_align_center</i>
+      </a>
+    </div>
+  </nav>
+
+  <!--Side Nav-->
+  <ul class="sidenav grey lighten-1" id="side-nav">
+    <li id="side-nav-logo" class="center mt-5">
+      <img src="img/logo2.png" alt="steve's logo">
+    </li>
+    <li><a class="sidenav-close grey-text text-darken-3 waves-effect" href="#home">首頁</a></li>
+    <li><a class="sidenav-close grey-text text-darken-3 waves-effect" href="#about">關於我</a></li>
+    <li><a class="sidenav-close grey-text text-darken-3 waves-effect" href="#skill">專業技能</a></li>
+    <li><a class="sidenav-close grey-text text-darken-3 waves-effect" href="#project">專案</a></li>
+    <li><a class="sidenav-close grey-text text-darken-3 waves-effect" href="#contact">聯絡我</a></li>
+    <li>
+      <div class="divider"></div>
+    </li>
+    <li><a class="subheader">關於我的更多資訊</a></li>
+    <div class="side-nav-icons">
+      <h5>
+        <a href="https://hooty868.medium.com/" class="grey-text text-darken-3" target="_blank">
+          <i class="fab fa-medium"></i>
+        </a>
+      </h5>
+      <h5>
+        <a href="https://github.com/hooty868" class="grey-text text-darken-3" target="_blank">
+          <i class="fab fa-github"></i>
+        </a>
+      </h5>
+      <h5>
+        <a href="#" class="grey-text text-darken-3" target="_blank">
+          <i class="fab fa-linkedin"></i>
+        </a>
+      </h5>
+    </div>
+  </ul>
+
+  <div id="index-banner" class="parallax-container" id="home">
+    <div class="card animate__animated animate__slideInDown">
+      <div class="card-image waves-effect waves-block waves-light">
+        <img class="activator" src="https://assets-lighthouse.alphacamp.co/uploads/user/photo/2536/medium_IMG_2753.JPG">
+      </div>
+      <div class="card-content">
+        <span class="card-title activator grey-text text-darken-4">關於我<i class="material-icons right">reply</i></span>
+        <div class="social row">
+          <a href="https://hooty868.medium.com/" class="grey-text text-darken-3 col s4 btn waves-effect waves-teal"
+            target="_blank">
+            <i class="fab fa-medium"></i>
+          </a>
+          <a href="https://github.com/hooty868" class="grey-text text-darken-3 col s4 btn waves-effect waves-teal"
+            target="_blank">
+            <i class="fab fa-github"></i>
+          </a>
+          <a href="https://www.linkedin.com/in/中策-楚-3bb177a6"
+            class="grey-text text-darken-3 col s4 btn waves-effect waves-teal" target="_blank">
+            <i class="fab fa-linkedin"></i>
+          </a>
+        </div>
+      </div>
+      <div class="card-reveal">
+        <span class="card-title grey-text text-darken-4">自我介紹
+          <i class="material-icons right" id="cancle-icon">close</i>
+        </span>
+        <p class="content">這是我第一個RWD作品，主要呈現作品集與做過專案紀錄，如果覺得不錯或是需要我幫忙的，可以到在<a href="#contact">聯絡資訊</a>與我聯絡，也謝謝你們願意光顧我的網頁。
+          <br><br>曾經失意，受挫，尋找不到自己的著力點，在自我找尋的過程中，"紀錄"變成我的生活日常，"寫程式"變成幫助我紀錄的最好良伴...&emsp;
+          喜歡利用自己的能力幫助別人解決難題，也喜歡天馬行空想像自己的夢想清單，並努力把每一項實踐出來，如果你也是努力翻轉自己路上披巾斬棘，跌跌撞撞，其實你並不孤獨
+        </p>
+      </div>
+    </div>
+
+    <div class="parallax slider fullscreen">
+      <ul class="slides">
+        <li>
+          <img src="./img/muji_image.JPG">
+        </li>
+        <li>
+          <img src="https://upload.cc/i1/2020/12/30/vNbXif.jpg">
+        </li>
+      </ul>
+    </div>
+  </div>
+
+  <!-- container about me -->
+  <div class="container-about">
+    <section class="section section-about black-text scrollspy" id="about">
+      <div class="container center">
+        <h3>關於我</h3>
+        <h6 class="black-text text-darken-1">目前正在Bootcamp全力衝刺完善自己的作品集專案，目標能在未來轉戰國際，邁向全端工程師之路</h6>
+        <div class="row mt-20 animate__animated animate__rotateIn">
+          <div class="col s12 m3">
+            <div class="card section image-cover"
+              style="background-image: url(https://upload.cc/i1/2020/12/30/sNTW27.jpg)">
+              <a href="https://bit.ly/2MA8oGm" target="_blank">
+                <div class="card-image" id="card-image1">
+                  <span class="card-title white-text">社交平台專案</span>
+                </div>
+              </a>
+            </div>
+          </div>
+          <div class="col s12 m3">
+            <div class="card section image-cover"
+              style="background-image: url(https://upload.cc/i1/2020/12/30/vNbXif.jpg)">
+              <a href="https://bit.ly/2MA8oGm" target="_blank">
+                <div class="card-image" id="card-image1">
+                  <span class="card-title gray-text">求職過程</span>
+                </div>
+              </a>
+            </div>
+          </div>
+          <div class="col s12 m3">
+            <div class="card section image-cover"
+              style="background-image: url(https://upload.cc/i1/2020/12/30/rzbvLn.jpg)">
+              <a href="https://bit.ly/2MA8oGm" target="_blank">
+                <div class="card-image" id="card-image3">
+                  <span class="card-title gray-text">前端技能養成</span>
+                </div>
+              </a>
+            </div>
+          </div>
+          <div class="col s12 m3">
+            <div class="card section image-cover"
+              style="background-image: url(https://upload.cc/i1/2020/12/30/dNiVJO.jpg)">
+              <a href="https://bit.ly/2MA8oGm" target="_blank">
+                <div class="card-image" id="card-image3">
+                  <span class="card-title gray-text">轉職天堂路</span>
+                </div>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </div>
+
+  <!-- Front-skill template  -->
+  <div class="front-skills container scrollspy" id="skill">
+    <div class="carousel carousel-slider center">
+      <div class="carousel-item white-text" href="#one!">
+        <div class="skill-container">
+          <h2>前端技能</h2>
+          <div class="row">
+            <div class="col s4">
+              <a href="https://vuejs.org/">
+                <img src="https://upload.cc/i1/2021/01/02/5FEmL1.png">
+              </a>
+            </div>
+            <div class="col s4">
+              <a href="https://www.w3schools.com/js/js_examples.asp">
+                <img src="https://upload.cc/i1/2021/01/02/0UaY1i.png">
+              </a>
+            </div>
+            <div class="col s4">
+              <a href="https://sass-lang.com/">
+                <img src="https://upload.cc/i1/2021/01/02/80pXDH.png">
+              </a>
+            </div>
+            <div class="col s4">
+              <a href="https://materializecss.com/">
+                <img src="https://upload.cc/i1/2021/01/02/aLKJ2e.png">
+              </a>
+            </div>
+            <div class="col s4">
+              <a href="https://getbootstrap.com/">
+                <img src="https://upload.cc/i1/2021/01/02/g9BjXt.png">
+              </a>
+            </div>
+            <div class="col s4">
+              <a href="https://jquery.com/">
+                <img src="https://cdn.iconscout.com/icon/free/png-512/jquery-10-1175155.png">
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item white-text" href="#two!">
+          <div class="skill-container">
+            <h2>後端技能</h2>
+            <div class="row">
+              <div class="col s4">
+                <a href="https://nodejs.org/en/">
+                  <img src="https://nodejs.org/static/images/logo.svg">
+                </a>
+              </div>
+              <div class="col s4">
+                <a href="https://expressjs.com/">
+                  <img src="https://upload.cc/i1/2021/01/10/8MDATi.png">
+                </a>
+              </div>
+              <div class="col s4">
+                <a href="https://www.mongodb.com/">
+                  <img src="https://img.icons8.com/color/452/mongodb.png">
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item white-text" href="#three!">
+          <div class="skill-container">
+            <h2>Dev 工具</h2>
+            <div class="row">
+              <div class="col s3">
+                <a href="https://www.heroku.com/home">
+                  <img src="https://image.flaticon.com/icons/png/512/873/873120.png">
+                </a>
+              </div>
+              <div class="col s3">
+                <a href="https://git-scm.com/">
+                  <img
+                    src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/Git_icon.svg/1024px-Git_icon.svg.png">
+                </a>
+              </div>
+              <div class="col s3">
+                <a href="https://github.com/">
+                  <img src="https://upload.cc/i1/2021/01/10/xhBQoS.png">
+                </a>
+              </div>
+              <div class="col s3">
+                <a href="https://developers.google.com/web/tools/chrome-devtools?hl=zh-tw">
+                  <img
+                    src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Google_Chrome_icon_%28September_2014%29.svg/1024px-Google_Chrome_icon_%28September_2014%29.svg.png">
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!--parallax-->
+    </div>
+  </div>
+
+  <!-- contact-me section template-->
+  <section class="section experience section-contact black-text scrollspy" id="contact">
+    <div class="container center">
+      <h3>聯絡我</h3>
+      <h6>麻煩填入您聯絡資訊，會盡快聯絡您，謝謝</h6>
+      <div class="row">
+        <form class="col s12 xl10 offset-xl1" name="form">
+          <div class="row">
+            <div class="input-field col s12 m6">
+              <i class="material-icons prefix">account_circle</i>
+              <input type="text" class="validate" id="name" required>
+              <label for="name">名字</label>
+              <span class="helper-text" data-error="Kindly provide your name"></span>
+            </div>
+            <div class="input-field col s12 m6">
+              <i class="material-icons prefix">email</i>
+              <input type="email" name="email" class="validate" id="email" required>
+              <label for="email">Email</label>
+              <span class="helper-text" data-error="Kindly provide your email"></span>
+            </div>
+          </div>
+          <div class="row">
+            <div class="input-field col s12">
+              <i class="material-icons prefix">message</i>
+              <textarea name="message" id="message" class="materialize-textarea validate" required></textarea>
+              <label for="message">聯絡事項</label>
+              <span class="helper-text" data-error="Kindly leave a message"></span>
+            </div>
+          </div>
+          <div class="row center">
+            <button class="btn waves-effect waves-red brown lighten-3" type="button" name="action" id="myBtn">Send
+              <i class="material-icons right">send</i>
+            </button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!--Project Display Section-->
+  <section class="project-section section grey lighten-5 section-project grey-text text-darken-2 scrollspy"
+    id="project">
+    <div class="container">
+      <h3 class="center">近期專案</h3>
+      <h6 class="grey-text text-darken-1 center">
+        如果要看更多細節在麻煩移轉到我的 <span class="light-blue-text text-accent-4"><a
+            href="https://github.com/smallpaes?tab=repositories" target="_blank" id="github-repo-link">GitHub</a></span>
+      </h6>
+      <div class="row">
+        <div class="col l6 s12">
+          <div class="card">
+            <div class="card-image waves-effect waves-block waves-light">
+              <img class="activator" src="https://upload.cc/i1/2021/01/12/UvVDrY.png">
+            </div>
+            <div class="card-content">
+              <span class="card-title activator brown-text darken-2">復刻 Twitter專案<i
+                  class="material-icons right">info_outline</i></span>
+            </div>
+            <div class="card-reveal">
+              <span class="card-title grey-text text-darken-4">復刻 Twitter專案
+                <i class="material-icons right">close</i>
+              </span>
+              <ul class="black-text">
+                <li><i class="fas fa-bolt" style="margin-right: 5px;"></i>使用Vue,Vuex,Vue Router建構網站</li>
+                <li><i class="fas fa-bolt" style="margin-right: 5px;"></i>與後端使用Axios,Restful API溝通</li>
+                <li><i class="fas fa-bolt" style="margin-right: 5px;"></i>利用Socket.io建立公開聊天室</li>
+                <li><i class="fas fa-bolt" style="margin-right: 5px;"></i>頁面採用RWD設計</li>
+                <li><i class="fas fa-bolt" style="margin-right: 5px;"></i>後端採用Node.js,express,MySQL</li>
+                <li><i class="fas fa-bolt" style="margin-right: 5px;"></i>採用第三方套件優化提醒與發文時間</li>
+              </ul>
+              <div class="card-reveal-connect">
+                <a href="https://hooty868.medium.com/" class="grey-text text-darken-3" target="_blank">
+                  <i class="fab fa-medium"></i>
+                </a>
+                <a href="https://github.com/hooty868/Twitter-API-Frontend-v1" class="grey-text text-darken-3"
+                  target="_blank">
+                  <i class="fab fa-github"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col l6 s12">
+          <div class="offset-m1 valign-wrapper project-content">
+            <h5 class="blue-grey-text text-darken-1">復刻 Twitter專案</h5>
+            <span class="blue-grey-text text-lighten-1"
+              style="margin:0 auto;">四人在兩週內敏捷開發推文社交平台，採用前後分離模式，使用者可以隨時推文，修改個人資料，追蹤與回復人家推文，並具有公開聊天室功能設計。管理者也可以隨時觀看使用者資訊，以及推文修訂動作。
+            </span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer class="page-footer brown lighten-1">
+    <div class="container">
+      <div class="row">
+        <div class="col l4 s12" style="margin:3% auto;">
+          <img src="img/logo2.png" alt="logo" class="responsive-img">
+          <p class="grey-text text-lighten-4">關於實作專案與技術文章詳細的資訊，再麻煩您詳閱github與Medium。</p>
+        </div>
+        <div class="col l2 s12" style="margin:3% auto;">
+          <i class="fab fa-github" style="font-size: 2.5rem;margin:3% auto;"></i>
+          <ul>
+            <li><a class="white-text" href="#!">實戰專案原始碼，歡迎您來下載來玩玩看</a></li>
+          </ul>
+        </div>
+        <div class="col l2 s12" style="margin:3% auto;">
+          <i class="fab fa-medium" style="font-size: 2.5rem;margin:3% auto;"></i>
+          <ul>
+            <li><a class="white-text" href="#!">目前的的技術部落格，想要更深入技術探討可詳閱內部文章。</a></li>
+          </ul>
+        </div>
+        <div class="col l2 s12" style="margin:3% auto;">
+          <i class="fab fa-linkedin" style="font-size: 2.5rem;margin:3% auto;"></i>
+          <ul>
+            <li><a class="white-text" href="#!">除了個人網站與medium,也可以隨時用linkidin與我聯絡</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="footer-copyright">
+      <div class="container grey-text text-darken-4">
+        <div class="row center" style="margin: 0 auto;">
+          Portfolio made by ©<a class="brown-text text-lighten-3" href="#"> steve</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+
+  <!--  Scripts-->
+  <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+  <script type="text/javascript" src="js/materialize.js"></script>
+  <script type="text/javascript" src="./js/materialize-init.js"></script>
+  <script type="text/javascript" src="js/init.js"></script>
+  <script src="https://smtpjs.com/v3/smtp.js"></script>
+  <script src="dist/bundle.js"></script>
+</body>
+
+</html>
