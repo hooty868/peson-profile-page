@@ -133,9 +133,9 @@ function processFormData() {
     return
   }
   Email.send({
-    SecureToken: "5c4a7f1c-afd7-466d-98a2-65e4ed57b90a",
-    To: 'wortwonnn@gmail.com',
-    From: 'hooty868@gmail.com',
+    SecureToken: "************************************",
+    To: '*********@gmail.com',
+    From: '********@gmail.com',
     Subject: name,
     Body: `${email}:${message}`
   }).then(
