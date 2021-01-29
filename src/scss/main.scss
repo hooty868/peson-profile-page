@@ -41,7 +41,7 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
-// css reset end
+// css reset end basic setting
 *{
   box-sizing: border-box;
   font-family: 'Noto Serif TC', serif;
@@ -161,7 +161,7 @@ p {
     }
   }
 }
-/* container-about me css style*/
+/* container-about css style*/
 .container-about .card {
   background-size: cover;
   background-position: 50% center;
@@ -171,7 +171,6 @@ p {
     transform: translateX(-50%);
     white-space:nowrap;
     font-size: 20px;
-    padding: 15px;
   }
 }
 /* Front-skill css style */
