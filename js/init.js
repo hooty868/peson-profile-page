@@ -60,3 +60,24 @@ function processFormData() {
 document.getElementById("myBtn").addEventListener("click", function () {
   processFormData()
 })
+
+let targgleCard = false
+$(".cta-button").mouseup(function () {
+  $('#card-hide').animate({
+    top: '-=377px'
+  }, 1500, 'easeOutBounce');
+  $(".cta-button").css({ "display": "none" });
+  $(".cta-text").css({ "font-size": "1.5rem" });
+  targgleCard = true
+})
+
+$(".back-btn").mouseup(function () {
+  if (targgleCard) {
+    $('#card-hide').animate({
+      top: '+=377px'
+    }, 1500, 'easeOutBounce');
+    $(".cta-button").css({ "display": "block" });
+    $(".cta-text").css({ "font-size": "0.9rem" });
+    targgleCard = false
+  }
+})
