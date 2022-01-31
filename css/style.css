@@ -1,36 +1,36 @@
-*{
+* {
   box-sizing: border-box;
-  font-family: 'Noto Serif TC', serif;
+  font-family: "Noto Serif TC", serif;
 }
 p {
   line-height: 2rem;
 }
 
 /*nav bar css style*/
-.navbar{
+.navbar {
   position: fixed;
   z-index: 999;
   opacity: 0;
-} 
-nav .home-button .material-icons{
+}
+nav .home-button .material-icons {
   font-size: 3rem;
   line-height: 64px;
   color: black;
 }
 
 nav .brand-logo {
-  height:64px;
-  width:200px;
+  height: 64px;
+  width: 200px;
 }
 
 nav .brand-logo img {
   margin: 3% 0;
-  height:80%;
-  width:80%;
+  height: 80%;
+  width: 80%;
   padding: 5px;
 }
 .sidenav-trigger {
-  color:black;
+  color: black;
 }
 /* sidenav css style*/
 #side-nav-logo {
@@ -39,12 +39,12 @@ nav .brand-logo img {
 .side-nav-icons {
   width: 70%;
   display: flex;
-  justify-content:space-between;
+  justify-content: space-between;
   margin-left: 10%;
 }
-.side-nav-icons h5{
+.side-nav-icons h5 {
   font-size: 2rem;
-  margin:0;
+  margin: 0;
 }
 /* parallax-container css style*/
 .parallax-container {
@@ -67,69 +67,69 @@ nav .brand-logo img {
   border-radius: 20px;
   box-shadow: 0 2px 10px rgba(0, 0, 0, 0.03);
   border-top: 30px;
-  margin-top:80px;
+  margin-top: 80px;
 }
 
-.parallax-container .card .card-image{
+.parallax-container .card .card-image {
   object-fit: cover;
   margin-top: 5%;
 }
-.parallax-container .card .card-image img{
+.parallax-container .card .card-image img {
   width: 50%;
   height: 100%;
   margin: 0 auto;
   border-radius: 50%;
 }
-.parallax-container .card .card-content{
+.parallax-container .card .card-content {
   width: 100%;
 }
-.parallax-container .card .card-title{
+.parallax-container .card .card-title {
   width: 30%;
   margin: 0 auto;
   font-weight: 700;
 }
-.parallax-container .card .social{
+.parallax-container .card .social {
   font-size: 2.5rem;
   margin-top: 20px;
 }
-.parallax-container .card .card-reveal .card-title{
+.parallax-container .card .card-reveal .card-title {
   margin: 20px auto 10px auto;
   position: relative;
 }
-.parallax-container .card .card-reveal #cancle-icon{
+.parallax-container .card .card-reveal #cancle-icon {
   position: absolute;
   top: -10px;
   right: 0;
 }
-.parallax-container .card .card-reveal .content{
+.parallax-container .card .card-reveal .content {
   padding-top: 10px;
 }
 /* container-about me css style*/
-.mt-20{
+.mt-20 {
   margin-top: 30px;
 }
 .card {
   width: 100%;
-  height:200px;
+  height: 200px;
   border-radius: 30px;
   margin: 10px auto 0 auto;
   opacity: 0.3;
 }
-.card:hover{
+.card:hover {
   opacity: 1;
   transform: scale(1.05);
-  transition: all .3s linear;
-  -webkit-transition: all .3s linear;
+  transition: all 0.3s linear;
+  -webkit-transition: all 0.3s linear;
 }
-.container-about .card .card-image .card-title{
+.container-about .card .card-image .card-title {
   left: 50%;
   bottom: -200px;
   transform: translateX(-50%);
-  white-space:nowrap;
+  white-space: nowrap;
   font-size: 20px;
   padding: 15px;
 }
-.image-cover{
+.image-cover {
   background-size: cover;
   background-position: 50% center;
 }
@@ -139,20 +139,20 @@ nav .brand-logo img {
   max-width: 100%;
 }
 .front-skills .carousel {
-  height: 300px!important;
+  height: 300px !important;
   width: 100%;
   background-size: cover;
   background-position: 25% 80%;
   background-image: url(https://upload.cc/i1/2021/01/02/eRsVoi.jpg);
 }
-.front-skills .carousel .carousel-item .container{
-  border:1px red solid;
+.front-skills .carousel .carousel-item .container {
+  border: 1px red solid;
 }
-.front-skills .skill-container .row{
+.front-skills .skill-container .row {
   width: 70%;
   margin: 0 auto;
 }
-.front-skills .skill-container .row img{
+.front-skills .skill-container .row img {
   width: 80px;
   height: 80px;
 }
@@ -168,13 +168,13 @@ nav .brand-logo img {
   margin: 0 auto;
   opacity: 1;
 }
-.project-section .card .card-image img{
+.project-section .card .card-image img {
   width: 100%;
   max-height: 200px;
   border-radius: 10px 10px 0 0;
   opacity: 1;
 }
-.project-section .card .card-content{
+.project-section .card .card-content {
   padding: 10px;
   border-top: 1px solid #efebe9;
   text-align: center;
@@ -183,21 +183,21 @@ nav .brand-logo img {
 .project-section .card .card-reveal {
   padding: 5px;
 }
-.project-section .card .card-reveal .card-title{
+.project-section .card .card-reveal .card-title {
   font-size: 18px;
   margin-bottom: 5px;
   border-bottom: 1px solid #795548;
 }
-.project-section .card .card-reveal ul{
+.project-section .card .card-reveal ul {
   margin: 0;
 }
-.project-section .card .card-reveal-connect{
+.project-section .card .card-reveal-connect {
   display: flex;
-  justify-content:flex-end;
-  margin: 2px 0 0 auto;
+  justify-content: flex-end;
+  margin: 0px 0 0 auto;
   font-size: 25px;
 }
-.project-section .card .card-reveal-connect i{
+.project-section .card .card-reveal-connect i {
   margin: 0 20px 0 0;
   font-size: 25px;
 }
@@ -210,24 +210,24 @@ nav .brand-logo img {
   flex-direction: column;
   justify-content: center;
   align-items: start;
-  text-align:left;
+  text-align: left;
 }
-.project-section .project-content h5{
+.project-section .project-content h5 {
   margin: 0 auto 15px 0;
 }
-@media only screen and (max-width : 993px) {
+@media only screen and (max-width: 993px) {
   /* parallax-container css style*/
   .parallax-container .card {
     width: 75%;
   }
-  .card .card-image .card-title{
+  .card .card-image .card-title {
     font-size: 14px;
   }
-  .parallax-container .card .card-title{
-  width: 70%;
-}
-/* Front-skill css style */
-  .front-skills .skill-container .row img{
+  .parallax-container .card .card-title {
+    width: 70%;
+  }
+  /* Front-skill css style */
+  .front-skills .skill-container .row img {
     width: 50px;
     height: 50px;
     margin-top: 10px;
